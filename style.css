@@ -1,0 +1,4 @@
+:root{color-scheme:light dark;--fg:#1d1d1f;--bg:#fff;--muted:#555}
+@media (prefers-color-scheme:dark){:root{--fg:#eee;--bg:#161616;--muted:#aaa}}
+body{font:16px/1.6 -apple-system,system-ui,sans-serif;color:var(--fg);background:var(--bg);max-width:40rem;margin:3rem auto;padding:0 1rem}
+small{color:var(--muted)}
